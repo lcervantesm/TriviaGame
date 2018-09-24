@@ -1,0 +1,54 @@
+@font-face{
+    font-family: "Friends";
+    src: url(./fonts/GABRWFFR.TTF);
+}
+body{
+    color: black;
+    background-image:linear-gradient(to bottom,rgba(0,123,255,.25), rgba(0,123,255,.25)), url(../img/swirl_pattern.png);
+}
+.friends-txt{
+    font-family: "Friends";
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin: 0;
+}
+.friends-txt2{
+    font-family: "Friends";
+    font-size: 1.3em;
+    cursor: pointer;
+    list-style: none;
+}
+.jumbotron{
+    background-image:linear-gradient(to bottom,rgba(0,123,255,.25), rgba(0,123,255,.25)), url(../img/header-bg.jpg);
+    background-size: cover;
+    color: white;
+}
+.lead{
+    font-weight: 500;
+}
+.card{
+    border: none; 
+}
+.card-header{
+    background: rgba(0,123,255,1);
+    color: white;
+}
+.card-body{
+    background: powderblue;
+}
+.btn{
+    background: rgba(0,123,255,1);
+    color: white;
+}
+.btn.friends-txt:focus{
+    box-shadow: none;
+}
+.btn.friends-txt:active{
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255, 1);
+}
+.timer{
+    font-family: "Friends";
+    color: red;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
